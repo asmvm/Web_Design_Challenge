@@ -37,13 +37,47 @@
     background-color: #44ccaa
 }
 .custom-nav {
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
+    /* padding: 20px;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: -40px; */
     cursor: pointer;
     background-color: lightseagreen;
     border-radius: 3px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 25px;
+}
+
+@media (max-width: 800px) {
+    .navbar-nav {
+        background-color: purple;
+        background: purple;
+    }
+    .custom-nav{
+        background: purple;
+    }
+    .navbar {
+        background-color: purple;
+        background: purple;
+    }
+    .nav {
+        background-color: purple;
+        background: purple;
+    }
+
+    .div collapse navbar-collapse {
+        background-color: purple;
+        background: purple;
+    }
+
+    .navbar-custom {
+        background-color: #ff5500;
+    }
+
+    .nav.navbar.navbar-expand-lg.navbar-light {
+        background-color: #44ccaa;
+    }
+
 }

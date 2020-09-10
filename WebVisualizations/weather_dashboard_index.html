@@ -15,32 +15,37 @@
   <body class="bod">
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <!-- <a class="navbar-brand" href="#">Latitude</a> -->
-      <button type="button" class="btn btn-info btn-lg custom-nav">Latitude</button>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-clipboard-data" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+        <path fill-rule="evenodd" d="M9.5 1h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+        <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z"/>
+      </svg>
+      <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">LATITUDE</span>
+      </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
-      <div class="collapse navbar-collapse" id="navbarColor01">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
         
-          <ul class="navbar-nav ml-auto">
-                   
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Max Temperature</a>
-              <a class="dropdown-item" href="#">Humidity</a>
-              <a class="dropdown-item" href="#">Cloudiness</a>
-              <a class="dropdown-item" href="#">Wind Speed</a>              
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Comparison</a>
+            <a class="nav-link" href="#">Comparison</a> 
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Data</a>
-          </li>        
-        </ul>      
+          </li>
+        </ul>
       </div>
     </nav>
 
@@ -70,7 +75,7 @@
         <div class="col-md-7">
                     
           <p>
-            <img class="fig-w-text" target="_blank" src="Resources/assets/images/Fig1.png" >
+            <img class="fig-w-text" target="_blank" src="Resources/assets/images/Fig1.png" Align="left" alt="">
             The purpose of this project was to analyze how weather changes as you get closer to the equator.
             To accomplish this analysis, we first pulled the data from the OpenWeatherMap API to assemble a dataset
             on over 500 cities. 
