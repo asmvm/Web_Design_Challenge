@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
-    <title>Weather Dashboard Home</title>
+    <title>Comparisons</title>
   </head>
 
   <body class="bod">
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <nav class="navbar sticky-top navbar-light bg-light">
         <!-- <span class="navbar-brand mb-0 h1" style="color: ghostwhite;" >LATITUDE</span> -->
-        <a class="navbar-brand" style="color: ghostwhite;" href="#">LATITUDE</a>
+        <a class="navbar-brand" style="color: ghostwhite;" href="weather_dashboard_index.html">LATITUDE</a>
       </nav>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,76 +30,56 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Max Temperature</a>
-              <a class="dropdown-item" href="#">Humidity</a>
-              <a class="dropdown-item" href="#">Cloudiness</a>
-              <a class="dropdown-item" href="#">Wind Speed</a>
+              <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Comparison</a> 
+            <a class="nav-link" href="comparisons.html">Comparison</a> 
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Data</a>
+            <a class="nav-link" href="data.html">Data</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div class="col-container">
+    <div = class="container" >
       <!-- Grid container -->
       <div class="row">
         <!-- Grid columns -->
        
-        <div class="col-md-7 titles">
-          <h1>  Summary: Latitude vs. X</h1>
+        <div class="col-md-12 titles">
+          <h1>  Comparison: Latitude vs. X</h1>
           <hr>
         </div>
 
-        <div class="col-md-1" style="background-color: whitesmoke;">
-        </div>
-
-        <div class="col-md-4 titles">
-          <h1> Visualizations</h1>
-          <hr>
-
+        <div>
+          <h4>Click on any plot to get an in-depth analysis</h4>
         </div>
       </div>
-
-            
-      <div class="row texty">
+     
+      <div class="row">
         <!-- Grid columns -->
-        <div class="col-md-7">
-                    
-          <p>
-            <img class="fig-w-text" target="_blank" src="Resources/assets/images/Fig1.png" Align="left" alt="vs. Max Temperature">
-            The purpose of this project was to analyze how weather changes as you get closer to the equator.
-            To accomplish this analysis, we first pulled the data from the OpenWeatherMap API to assemble a dataset
-            on over 500 cities. 
-          </p>
-          <p>
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked
-            at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created 
-            as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
-          </p>
+        <div class="col-md-6">
+          <img class="comparisons" target="_blank" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
+        </div> 
+        
+        <div class="col-md-6">
+          <img class="comparisons" target="_blank" src="Resources/assets/images/Fig3.png" alt="Cloudiness" >          
+        </div>
+      </div>
+      <!-- <div class="w-100"></div> -->
+      <div class="row">
+        <div class="col-md-6 ">
+          <img class="comparisons" target="_blank" src="Resources/assets/images/Fig2.png" alt="Humidity">
         </div>
 
-
-        <div class="col-md-1" style="background-color:whitesmoke;">
+        <div class="col-md-6">
+          <img class="comparisons" target="_blank" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
         </div>
-
-        <div class="col-md-2 ">
-         
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig1.png" >
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig3.png" >
-          
-        </div>
-
-        <div class="col-md-2 ">
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig2.png" >
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig4.png" >
-        </div>
-
       </div>
     
     </div>

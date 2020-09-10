@@ -17,7 +17,7 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <nav class="navbar sticky-top navbar-light bg-light">
         <!-- <span class="navbar-brand mb-0 h1" style="color: ghostwhite;" >LATITUDE</span> -->
-        <a class="navbar-brand" style="color: ghostwhite;" href="#">LATITUDE</a>
+        <a class="navbar-brand" style="color: ghostwhite;" href="weather_dashboard_index.html">LATITUDE</a>
       </nav>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,17 +30,17 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Max Temperature</a>
-              <a class="dropdown-item" href="#">Humidity</a>
-              <a class="dropdown-item" href="#">Cloudiness</a>
-              <a class="dropdown-item" href="#">Wind Speed</a>
+              <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Comparison</a> 
+            <a class="nav-link" href="comparisons.html">Comparison</a> 
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Data</a>
+            <a class="nav-link" href="data.html">Data</a>
           </li>
         </ul>
       </div>
@@ -88,16 +88,25 @@
         <div class="col-md-1" style="background-color:whitesmoke;">
         </div>
 
-        <div class="col-md-2 ">
-         
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig1.png" >
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig3.png" >
+        <div class="col-md-2">
+                   
+          <a href="maxtemp.html"> 
+            <img class="figure" target="_blank" src="Resources/assets/images/Fig1.png" alt="Max Temperature"> 
+          </a>
+          <a href="cloudiness.html">  
+            <img class="figure" target="_blank" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+          </a>
           
         </div>
 
         <div class="col-md-2 ">
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig2.png" >
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig4.png" >
+          <a href="humidity.html"> 
+            <img class="figure" target="_blank" src="Resources/assets/images/Fig2.png" alt="Humidity"> 
+          </a>
+          <a href="windspeed.html"> 
+            <img class="figure" target="_blank" src="Resources/assets/images/Fig4.png" alt="Wind Speed"> 
+          </a>
+
         </div>
 
       </div>
