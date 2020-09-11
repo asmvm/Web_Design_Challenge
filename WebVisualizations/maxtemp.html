@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
-    <title>Weather Dashboard Home</title>
+    <title>Max Temperature</title>
   </head>
 
   <body class="bod">
@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <nav class="navbar sticky-top navbar-light bg-light">
         <!-- <span class="navbar-brand mb-0 h1" style="color: ghostwhite;" >LATITUDE</span> -->
-        <a class="navbar-brand" style="color: ghostwhite;" href="#">LATITUDE</a>
+        <a class="navbar-brand" style="color: ghostwhite;" href="weather_dashboard_index.html">LATITUDE</a>
       </nav>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -46,13 +46,13 @@
       </div>
     </nav>
 
+    <!-- Grid Container -->
     <div class="col-container">
-      <!-- Grid container -->
+      <!-- Row container -->
       <div class="row">
-        <!-- Grid columns -->
-       
+               
         <div class="col-md-7 titles">
-          <h1>  Summary: Latitude vs. X</h1>
+          <h1>Max Temperature</h1>
           <hr>
         </div>
 
@@ -62,46 +62,40 @@
         <div class="col-md-4 titles">
           <h1> Visualizations</h1>
           <hr>
-
         </div>
-      </div>
 
-            
-      <div class="row texty">
-        <!-- Grid columns -->
         <div class="col-md-7">
-                    
+            
+          <img class="fig-w-text gofigure" target="_blank" src="Resources/assets/images/Fig1.png" Align="center" alt="vs. Max Temperature">
+
           <p>
-            <img class="fig-w-text" target="_blank" src="Resources/assets/images/Fig1.png" Align="left" alt="vs. Max Temperature">
-            The purpose of this project was to analyze how weather changes as you get closer to the equator.
-            To accomplish this analysis, we first pulled the data from the OpenWeatherMap API to assemble a dataset
-            on over 500 cities. 
+            Text explaining the graph... 
           </p>
           <p>
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked
-            at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created 
-            as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+            Lots of text here explaining this graph... 
           </p>
+
+
         </div>
 
 
         <div class="col-md-1" style="background-color:whitesmoke;">
         </div>
 
-        <div class="col-md-2 ">
-         
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig1.png" >
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig3.png" >
-          
+        <div class="col-md-4">  
+          <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
+          <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
         </div>
 
         <div class="col-md-2 ">
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig2.png" >
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig4.png" >
+          <img  class="img-fluid " target="_blank" src="Resources/assets/images/Fig2.png" alt="Humidity">
+          <img  class="img-fluid " target="_blank" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
         </div>
-
+      
+        <!-- ROW END ON THIS DIV -->
       </div>
-    
+      
+    <!-- CONTAINER ENDS ON THIS DIV -->
     </div>
 
 
