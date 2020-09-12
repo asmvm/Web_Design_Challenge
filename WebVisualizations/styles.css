@@ -1,20 +1,19 @@
 .bod {  
     background-color: whitesmoke;
     font-family: 'courier';
-    padding: 30px;
-    
+    padding: 30px; 
 }
 
 .col-container {
     inline-size: auto;
     background-color: white;
     margin: 1% 10% 10% 15%;
-
 }
 
-.figure {
-    width: 170px;
-    height: 170px;
+img{
+    display: block;
+    height: auto;
+    width: 100%;
 }
 
 .fig-w-text {
@@ -65,7 +64,7 @@ h4 {
     text-align: left;
     padding: 10px;
     margin: 2%;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .navbar-brand {
@@ -85,12 +84,6 @@ h4 {
 .comparisons {
     width: 100%;
     height: 100%; 
-}
-
-img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 .hover figure {

@@ -48,72 +48,65 @@
 
     <div class="col-container">
       <!-- Grid container -->
-      <div class="row">
-        <!-- Grid columns -->
-       
-        <div class="col-md-7 titles">
-          <h1>  Summary: Latitude vs. X</h1>
-          <hr>
-        </div>
-
-        <div class="col-md-1" style="background-color: whitesmoke">
-        </div>
-
-        <div class="col-md-4 titles">
-          <h1> Visualizations</h1>
-          <hr>
-
-        </div>
-      </div>
-
-            
+     
       <div class="row texty">
         <!-- Grid columns -->
-        <div class="col-md-7">
-                    
-          <p>
-            <img class="fig-w-text" target="_blank" src="Resources/assets/images/Fig1.png" Align="left" alt="vs. Max Temperature">
-            The purpose of this project was to analyze how weather changes as you get closer to the equator.
-            To accomplish this analysis, we first pulled the data from the OpenWeatherMap API to assemble a dataset
-            on over 500 cities. 
-          </p>
-          <p>
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked
-            at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created 
-            as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
-          </p>
+        <div class="titles col-md-7">
+          <h1>  Summary: Latitude vs. X</h1>
+          <hr>
+          <div>
+            <img class="img-fluid fig-w-text" target="_blank" src="Resources/assets/images/Fig1.png" Align="left" alt="vs. Max Temperature">
+          </div>
+          <div>
+            <p> 
+              The purpose of this project was to analyze how weather changes as you get closer to the equator.
+              To accomplish this analysis, we first pulled the data from the OpenWeatherMap API to assemble a dataset
+              on over 500 cities. 
+            </p>
+            <p>
+              After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked
+              at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created 
+              as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+            </p>
+          </div>
         </div>
 
-
-        <div class="col-md-1" style="background-color:whitesmoke;">
-        </div>
-
-        <div class="col-md-2">
-                   
-          <a href="maxtemp.html"> 
-            <img class="figure" target="_blank" src="Resources/assets/images/Fig1.png" alt="Max Temperature"> 
-          </a>
-          <a href="cloudiness.html">  
-            <img class="figure" target="_blank" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
-          </a>
+        <div class="col-md-1" style="background-color:whitesmoke;"></div>
+        
+        <div class="hover col-md-2">                    
+          <figure>         
+           <a href="maxtemp.html"> 
+             <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig1.png" alt="Max Temperature"> 
+            </a>
+            <span>Max Temperature</span>
+          </figure>
           
+          <figure>
+            <a href="cloudiness.html">  
+              <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+            </a>
+            <span>Cloudiness</span>
+          </figure>          
         </div>
 
-        <div class="col-md-2 ">
-          <a href="humidity.html"> 
-            <img class="figure" target="_blank" src="Resources/assets/images/Fig2.png" alt="Humidity"> 
-          </a>
-          <a href="windspeed.html"> 
-            <img class="figure" target="_blank" src="Resources/assets/images/Fig4.png" alt="Wind Speed"> 
-          </a>
+        <div class="hover col-md-2 ">
+          <figure>
+            <a href="humidity.html"> 
+              <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig2.png" alt="Humidity"> 
+            </a>
+            <span>Humidity</span>
+          </figure>
 
+          <figure>
+            <a href="windspeed.html"> 
+              <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig4.png" alt="Wind Speed"> 
+            </a>
+            <span>Wind Speed</span>
+          </figure>
         </div>
 
-      </div>
-    
+      </div>   
     </div>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
