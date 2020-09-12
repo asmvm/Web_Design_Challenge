@@ -14,7 +14,7 @@
 
   <body class="bod">
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <nav class="navbar sticky-top navbar-light bg-light">
         <!-- <span class="navbar-brand mb-0 h1" style="color: ghostwhite;" >LATITUDE</span> -->
         <a class="navbar-brand" style="color: ghostwhite;" href="weather_dashboard_index.html">LATITUDE</a>
@@ -46,62 +46,76 @@
       </div>
     </nav>
 
-    <div class="col-container">
-      <!-- Grid container -->
+    <div class="container-fluid">
+      <!-- Row container -->
       <div class="row">
-        <!-- Grid columns -->
-       
-        <div class="col-md-7 titles">
-          <h1>  Summary: Latitude vs. X</h1>
+               
+        <div class="col-md-7 titles" style="background-color: white;">
+          <h1>Humidity</h1>
           <hr>
+
+          <div>
+            <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig2.png" alt="Humidity">
+            <!-- <img class="fig-w-text gofigure" target="_blank" src="Resources/assets/images/Fig1.png" Align="center" alt="vs. Max Temperature">  -->
+          </div>
+
+          <p>
+            Lots of text goes here. 
+          </p>
+          <p>
+            Lots of text here explaining this graph... 
+          </p>    
+
         </div>
 
         <div class="col-md-1" style="background-color: whitesmoke;">
         </div>
 
-        <div class="col-md-4 titles">
+        <div class="col-md-4 titles" style="background-color: white;">   
           <h1> Visualizations</h1>
           <hr>
-
+          <div class="row">
+            <div class="hover col-md-6">
+              <figure>
+                <a href="maxtemp.html">
+                  <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig1.png" alt="Max Temperature">  
+                </a>
+                <span>Max Temperature</span>
+              </figure>
+            </div>
+            <div class="hover col-md-6">
+              <figure>  
+                <a href="cloudiness.html">    
+                  <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+                </a>
+                <span>Cloudiness</span>
+              </figure>  
+            </div>
+          </div>
+          <div 
+          <div class="row">
+            <div class="hover col-md-6">
+              <figure>
+                <a href="humidity.html">
+                  <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig2.png" alt="Humidity" style="border: #44ccaa solid 5px;">  
+                </a>
+                <span>Humidity</span>
+              </figure>
+            </div>
+            <div class="hover col-md-6">
+              <figure>  
+                <a href="windspeed.html">    
+                  <img class="img-fluid" target="_blank" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+                </a>
+                <span>Wind Speed</span>
+              </figure>  
+            </div>
+          </div>
+          <div       
         </div>
-      </div>
-
-            
-      <div class="row texty">
-        <!-- Grid columns -->
-        <div class="col-md-7">
-                    
-          <p>
-            <img class="fig-w-text" target="_blank" src="Resources/assets/images/Fig1.png" Align="left" alt="vs. Max Temperature">
-            The purpose of this project was to analyze how weather changes as you get closer to the equator.
-            To accomplish this analysis, we first pulled the data from the OpenWeatherMap API to assemble a dataset
-            on over 500 cities. 
-          </p>
-          <p>
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked
-            at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created 
-            as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
-          </p>
-        </div>
-
-
-        <div class="col-md-1" style="background-color:whitesmoke;">
-        </div>
-
-        <div class="col-md-2 ">
-         
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig1.png" >
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig3.png" >
-          
-        </div>
-
-        <div class="col-md-2 ">
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig2.png" >
-          <img class="figure" target="_blank" src="Resources/assets/images/Fig4.png" >
-        </div>
-
-      </div>
-    
+        <!-- ROW END ON THIS DIV -->
+      </div>      
+      <!-- CONTAINER ENDS ON THIS DIV -->
     </div>
 
 
