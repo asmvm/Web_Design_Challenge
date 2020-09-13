@@ -107,7 +107,8 @@ h4 {
     visibility: hidden;
     -webkit-transition: visibility 0s, opacity 0.5s linear; 
     transition: visibility 0s, opacity 0.5s linear;
-   }
+}
+
 .hover figure:hover img {
 	opacity: .89;
 }
@@ -117,7 +118,24 @@ h4 {
     padding: 0px 10px;
     visibility: visible;
     opacity: 0.5;
-   }
+}
+
+th {
+    background: white;
+    position: sticky;
+    top: 0; /* required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+.nav-item:hover {
+    background-color: #44ccaa;
+    color: white;
+  }
+p {
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 16px;
+}
 
 @media (max-width: 600px) {
 
