@@ -44,6 +44,8 @@ Using HTML, CSS, and Bootstrap, this project aims to develop an interactive visu
 
 The [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualizations/weather_dashboard_index.html) provides a background of the project and an interactive menu to navigate to all visualizations and data. Thumbnails to each visualization page analyzing humidity, windspeed, max temperature, and cloudiness vs latitude is providede on the landing page.  
 
+![Landing Page](saved_images/landing_page.png)
+
 ## Visualization Pages
 To view the python code used to extract and transform the data, select the link below to view the full notebook.
 * [WeatherPy Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Weather_Py/WeatherPy_main.ipynb)
