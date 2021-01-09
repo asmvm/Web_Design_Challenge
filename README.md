@@ -1,44 +1,73 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
 
+<p align="center">
+ <h2 align="center"> Web Design Challenge </h2>
+ <h1 align="center"> Interactive Dashboard </h1>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#background">Background</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#landing-page">Landing Page</a>
+    </li>
+    <li>
+      <a href="#visualization-pages">Visualization Pages</a>
+    </li>
+    <li>
+      <a href="#comparisons-page">Comparisons Page</a>
+    </li>
+    <li>
+      <a href="#data-page">Data Page</a>
+    </li>
+  </ol>
+</details>
+
+<!-- Background -->
 ## Background
-
-Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
-
-
-## Latitude - Latitude Analysis Dashboard with Attitude
-
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
-
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
-
-### Website Requirements
-
-The website must consist of 7 pages total, including:
-
-* A [landing page](#landing-page) containing:
-  * An explanation of the project.
-  * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
-* Four [visualization pages](#visualization-pages), each with:
-  * A descriptive title and heading tag.
-  * The plot/visualization itself for the selected comparison.
-  * A paragraph describing the plot and its significance.
-* A ["Comparisons" page](#comparisons-page) that:
-  * Contains all of the visualizations on the same page so we can easily visually compare them.
-  * Uses a Bootstrap grid for the visualizations.
-    * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
-* A ["Data" page](#data-page) that:
-  * Displays a responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
-
-The website must, at the top of every page, have a navigation menu that:
-
-* Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
-* Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
-* Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
-* Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
+Using HTML, CSS, and Bootstrap, this project aims to develop an interactive visualization dashboard website deployed on GitHub Pages. The visualization is built on an earlier project, [Python API Challenge](https://github.com/asmvm/Python_API_Challenge), an anlysis of weather coditions of 500+ cities across the world of varying distance from the equator. This project was completed to fulfill Georgia Tech's Data Science and Analytics certificate.
 
 
+### Built With
+* [Bootstrap](https://getbootstrap.com/)
+* HTML
+* CSS
+
+
+## Landing Page
+
+The [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualizations/weather_dashboard_index.html) provides a background of the project and an interactive menu to navigate to all visualizations and data. Thumbnails to each visualization page analyzing humidity, windspeed, max temperature, and cloudiness vs latitude is providede on the landing page.  
+
+## Visualization Pages
+To view the python code used to extract and transform the data, select the link below to view the full notebook.
+* [WeatherPy Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Weather_Py/WeatherPy_main.ipynb)
+
+## Comparisons Page
+Scatter plots illustrating relationship between temperature, humidity, cloudiness, and windspeed vs latitude. Max Temp displayed below. Select links to plots to view remaining plots:
+
+![Temperature (F) vs. Latitude](saved_figures/lat_vs_maxtemp.png)
+* [Humidity (%) vs. Latitude](saved_figures/lat_vs_humidity.png)
+* [Cloudiness (%) vs. Latitude](saved_figures/lat_vs_cloudiness.png)
+* [Wind Speed (mph) vs. Latitude](saved_figures/lat_vs_windspeed.png)
+
+
+## Data Page
+Linear regression is run on each relationship, while also looking at cities in Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). A linear regression function was created to optimize the code when creating the plots:
+
+![Northern Hemisphere - Temperature (F) vs. Latitude](saved_figures/northernhem_maxtemp_vs_lat.png)
+* [Southern Hemisphere - Temperature (F) vs. Latitude](saved_figures/southern_hem_maxtemp_vs_lat.png)
+* [Northern Hemisphere - Humidity (%) vs. Latitude](saved_figures/northern_hem_humidity_vs_lat.png)
+* [Southern Hemisphere - Humidity (%) vs. Latitude](saved_figures/southern_hem_humidity_vs_lat.png)
+* [Northern Hemisphere - Cloudiness (%) vs. Latitude](saved_figures/northern_hem_cloudiness_vs_lat.png)
+* [Southern Hemisphere - Cloudiness (%) vs. Latitude](saved_figures/southern_hem_cloudiness_vs_lat.png)
+* [Northern Hemisphere - Wind Speed (mph) vs. Latitude](saved_figures/northern_hem_windspeed_vs_lat.png)
+* [Southern Hemisphere - Wind Speed (mph) vs. Latitude](saved_figures/southern_hem_windspeed_vs_lat.png)
 
 
 
