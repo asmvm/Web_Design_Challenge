@@ -47,7 +47,7 @@ The [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualization
 ![Landing Page](saved_images/landing_page.PNG)
 
 ## Visualization Pages
-A visualization page is designed for each scatter plot, including a description of the plot and significance of the data. Select any of the links below to view a screenshot or navigate to the plots menu in the [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualizations/weather_dashboard_index.html).
+A visualization page is designed for each scatter plot, including a description of the plot and significance of the data. Select any of the links below to view the source code or navigate to the plots from the "Plots" dropdown menu in the [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualizations/weather_dashboard_index.html).
 
 ![MaxTemperature vs Latitude](saved_images/max_temp_vs_latitude.PNG)
 * [Humidity vs Latitude](https://github.com/asmvm/Web_Design_Challenge/blob/master/WebVisualizations/humidity.html)
