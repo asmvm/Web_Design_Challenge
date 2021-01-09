@@ -48,7 +48,10 @@ The [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualization
 
 ## Visualization Pages
 To view the python code used to extract and transform the data, select the link below to view the full notebook.
-* [WeatherPy Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Weather_Py/WeatherPy_main.ipynb)
+![Max Temperature vs Latitude](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Weather_Py/WeatherPy_main.ipynb)
+*[Humidity vs Latitude]
+*[Cloudiness vs Latitude]
+*[Wind Speed vs Latitude]
 
 ## Comparisons Page
 Scatter plots illustrating relationship between temperature, humidity, cloudiness, and windspeed vs latitude. Max Temp displayed below. Select links to plots to view remaining plots:
