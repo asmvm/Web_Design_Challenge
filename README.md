@@ -5,7 +5,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<details open="closed">
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -31,7 +31,7 @@
 
 <!-- Background -->
 ## Background
-Using HTML, CSS, and Bootstrap, this project aims to develop an interactive visualization dashboard website deployed on GitHub Pages. The visualization is built on an earlier project, [Python API Challenge](https://github.com/asmvm/Python_API_Challenge), an anlysis of weather coditions of 500+ cities across the world of varying distance from the equator. This project was completed to fulfill Georgia Tech's Data Science and Analytics certificate.
+Using HTML, CSS, and Bootstrap, this project aims to develop an interactive visualization dashboard website deployed on GitHub Pages. The visualization is built on an earlier project, [Python API Challenge](https://github.com/asmvm/Python_API_Challenge), an anlysis of weather conditions of 500+ cities across the world of varying distance from the equator. This project was completed to fulfill Georgia Tech's Data Science and Analytics certificate.
 
 
 ### Built With
