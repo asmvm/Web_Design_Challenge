@@ -18,7 +18,7 @@
       <a href="#landing-page">Landing Page</a>
     </li>
     <li>
-      <a href="#visualization-pages">Visualization Pages</a>
+      <a href="#visualization-page">Visualization Page</a>
     </li>
     <li>
       <a href="#comparisons-page">Comparisons Page</a>
@@ -49,7 +49,7 @@ The [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualization
 
 ![Landing Page](saved_images/landing_page.PNG)
 
-## Visualization Pages
+## Visualization Page
 A visualization page is designed for each scatter plot, including a description of the plot and significance of the data. Select any of the links below to view the source html code or navigate to the plots from the "Plots" dropdown menu in the [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualizations/weather_dashboard_index.html).
 
 ![MaxTemperature vs Latitude](saved_images/max_temp_vs_latitude.PNG)
@@ -70,5 +70,10 @@ The data page displays a responsive table containing the data used in the visual
 ![Data Page](saved_images/data.PNG)
 * [Data Page HTML code](saved_images/data.PNG)
 
+## Summary
+
+We successfully created a web visualization dashboard using HTML, Bootstrap, and a bit of CSS for clean design, organized layout, and interactive features that allow the user to navigate the site smoothly. The data represented in the visualizations is based off data collected in a previous Boot Camp project, [Python API Challenge](https://github.com/asmvm/Python_API_Challenge).
+
+Among many of the challenges met for this project, key elements include using the Bootstrap grid for responsiveness, incorporating CSS media query for the navigation menu, designing the website to work at all window widths and sizes, and applying a navbar component for the header on every page. I hope you enjoyed gaining a better understanding on the how this interactive web visualization dashboard was created. 
 
 
