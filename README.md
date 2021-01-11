@@ -47,7 +47,7 @@ The [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualization
 ![Landing Page](saved_images/landing_page.PNG)
 
 ## Visualization Pages
-A visualization page is designed for each scatter plot, including a description of the plot and significance of the data. Select any of the links below to view the source code or navigate to the plots from the "Plots" dropdown menu in the [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualizations/weather_dashboard_index.html).
+A visualization page is designed for each scatter plot, including a description of the plot and significance of the data. Select any of the links below to view the source html code or navigate to the plots from the "Plots" dropdown menu in the [landing page](https://asmvm.github.io/Web_Design_Challenge/WebVisualizations/weather_dashboard_index.html).
 
 ![MaxTemperature vs Latitude](saved_images/max_temp_vs_latitude.PNG)
 * [Max Temperture vs Latitude](https://github.com/asmvm/Web_Design_Challenge/blob/master/WebVisualizations/maxtemp.html)
@@ -58,11 +58,8 @@ A visualization page is designed for each scatter plot, including a description 
 ## Comparisons Page
 Scatter plots illustrating relationship between temperature, humidity, cloudiness, and windspeed vs latitude. Max Temp displayed below. Select links to plots to view remaining plots:
 
-![Temperature (F) vs. Latitude](saved_figures/lat_vs_maxtemp.png)
-* [Humidity (%) vs. Latitude](saved_figures/lat_vs_humidity.png)
-* [Cloudiness (%) vs. Latitude](saved_figures/lat_vs_cloudiness.png)
-* [Wind Speed (mph) vs. Latitude](saved_figures/lat_vs_windspeed.png)
-
+![Comparisons](saved_images/comparisons.PNG)
+* [Comparisons page HTML code](WebVisualizations/comparisons.html)
 
 ## Data Page
 Linear regression is run on each relationship, while also looking at cities in Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). A linear regression function was created to optimize the code when creating the plots:
