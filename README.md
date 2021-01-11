@@ -26,6 +26,9 @@
     <li>
       <a href="#data-page">Data Page</a>
     </li>
+    <li>
+      <a href="#summary">Summary</a>
+    </li>
   </ol>
 </details>
 
@@ -56,22 +59,16 @@ A visualization page is designed for each scatter plot, including a description 
 * [Wind Speed vs Latitude](https://github.com/asmvm/Web_Design_Challenge/blob/master/WebVisualizations/windspeed.html)
 
 ## Comparisons Page
-Scatter plots illustrating relationship between temperature, humidity, cloudiness, and windspeed vs latitude. Max Temp displayed below. Select links to plots to view remaining plots:
+Scatter plots illustrating relationship between temperature, humidity, cloudiness, and windspeed vs latitude. Select link below to view HTML code or visit the [Comparisons Page](https://asmvm.github.io/Web_Design_Challenge/WebVisualizations/comparisons.html) to experience interactive design.
 
 ![Comparisons](saved_images/comparisons.PNG)
 * [Comparisons page HTML code](WebVisualizations/comparisons.html)
 
 ## Data Page
-Linear regression is run on each relationship, while also looking at cities in Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). A linear regression function was created to optimize the code when creating the plots:
+The data page displays a responsive table containing the data used in the visualizations for 500+ cities around the world. To view HTML code, select the link below. To view the interactive table, visit the [Data Page](https://asmvm.github.io/Web_Design_Challenge/WebVisualizations/comparisons.html).
 
-![Northern Hemisphere - Temperature (F) vs. Latitude](saved_figures/northernhem_maxtemp_vs_lat.png)
-* [Southern Hemisphere - Temperature (F) vs. Latitude](saved_figures/southern_hem_maxtemp_vs_lat.png)
-* [Northern Hemisphere - Humidity (%) vs. Latitude](saved_figures/northern_hem_humidity_vs_lat.png)
-* [Southern Hemisphere - Humidity (%) vs. Latitude](saved_figures/southern_hem_humidity_vs_lat.png)
-* [Northern Hemisphere - Cloudiness (%) vs. Latitude](saved_figures/northern_hem_cloudiness_vs_lat.png)
-* [Southern Hemisphere - Cloudiness (%) vs. Latitude](saved_figures/southern_hem_cloudiness_vs_lat.png)
-* [Northern Hemisphere - Wind Speed (mph) vs. Latitude](saved_figures/northern_hem_windspeed_vs_lat.png)
-* [Southern Hemisphere - Wind Speed (mph) vs. Latitude](saved_figures/southern_hem_windspeed_vs_lat.png)
+![Data Page](saved_images/data.PNG)
+* [Data Page HTML code](saved_images/data.PNG)
 
 
 
